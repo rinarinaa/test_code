@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>JS_test</title>
+const age = 17;
+
+<script>
+if (age >= 20) {
+  console.log("20ˆÈã‚Å‚·");
+} else if(age = 18){
+  console.log("20–¢–‚Å‚·‚ªA10ÎˆÈã‚Å‚·");
+}
+
+ else {
+  console.log("10–¢–‚Å‚·");
+}
+
+for (let number = 1; number <= 100; number ++) {
+    if(number % 3 === 0) {
+    console.log("3‚Ì”{”‚Å‚·");
+    } else {
+    console.log(number);
+    }
+
+</script>
+</head>
+<body>
+  <button onclick="getData()">JSŠm”F</button>
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+</body>
+</html>
