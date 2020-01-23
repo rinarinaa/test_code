@@ -1,0 +1,30 @@
+[{キー1:値1},{キー2:値2}]
+
+user[
+{name:"suzuki",age:21}
+{name:"tanaka",age:34}
+]
+
+exams = [
+  {subject: "Math", score: 80},
+  {subject: "Science", score: 55}
+]
+
+# インデックス番号が1の要素の値を出力してください
+user = users[1]
+puts exams[1][:name]
+
+--------------------------------------
+
+users.each do |user|
+puts user
+
+//puts user[:name]
+end
+
+★★
+puts "#{exam[:subject]}の結果は#{exam[:score]}点です"
+
+----------------------------
+
+puts exam[:name]
